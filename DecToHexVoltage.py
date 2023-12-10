@@ -25,6 +25,7 @@ def main():
 
     result_cmd = hex_out_result(v_hex_adc, vout_aop, v_cmd)
     print(ceil(result_cmd))
+    print(hex(ceil(result_cmd)))
 
 
 
